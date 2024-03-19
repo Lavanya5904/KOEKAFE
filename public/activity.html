@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="Gallery CSS.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="workshop.css" rel="stylesheet">
+    <link href="form.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="styleactivity.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <nav>
+        <div id="menu-area">
+            <div class="logo">
+                <a href="#"><img src="logo-removebg.png" alt=""></a>
+            </div>
+            <ul id="hanusha">
+                <li><a href="#home">Home</a></li>
+                <div class="header-spc"></div>
+                <li><a href="#about">About</a></li>
+                <li><a href="#spec">Specialities</a></li>
+                <li><a href="#gllry">Gallery</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li onclick=showSidebar() id="show"> <a href="#">=</a></li>
+                <li onclick=hideSidebar() id="hide"><a href="#">X</a></li>
+            </ul>
+
+
+
+        </div>
+        <ul class="sidebar">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#spec">Specialities</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="header">
+        <div class="out_side_content">
+            <h2>COMING SOON</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, necessitatibus. Dolor eligendi
+                quos quasi veniam eveniet maxime, atque quas molestiae pariatur ad.</p>
+        </div>
+        <div class="counters">
+            <div class="time">
+                <span id="days" class="numbers">00</span>
+                <span> Days</span>
+            </div>
+
+            <div class="time">
+                <span id="hours" class="numbers">00</span>
+                <span> Hours</span>
+            </div>
+
+            <div class="time">
+                <span id="minutes" class="numbers">00</span>
+                <span>minutes</span>
+            </div>
+
+            <div class="time">
+                <span id="seconds" class="numbers">00</span>
+                <span>Seconds</span>
+            </div>
+        </div>
+
+        <div id="button-popup">
+            <button type="submit" id="btn" onclick="openPopup()">Register here</button>
+            <div class="form-container" id="popup-id">
+                <h2>Register Here</h2>
+                <form action="/submit-form" method="POST">
+                    <div class="name-container">
+                        <label for="name"></label>
+                        <input type="text" placeholder="Name" id="name">
+                    </div>
+                    <div class="email-container">
+                        <label for="email-form"></label>
+                        <input type="email" placeholder="Email" id="email-form">
+                    </div>
+                    <div class="number-container">
+                        <label for="number"></label>
+                        <input type="number" placeholder="Number" id="number">
+                    </div>
+                    <div class="button">
+                        <button type="submit" id="btn1" onclick="closePopup()">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+
+
+<section>
+        <section class="prlx-4">
+            <div class=""
+            <h2>workshop</h2>
+        </section>
+        <div class="wrapper">
+            <div class="wrapper1">
+                <div class="cols">
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container">
+                            <div class="front" style="background-image: url(https://unsplash.it/500/500/)">
+                                <div class="inner">
+                                    <p>Diligord</p>
+                                    <span>Lorem ipsum</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae
+                                        suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container">
+                            <div class="front" style="background-image: url(https://unsplash.it/511/511/)">
+                                <div class="inner">
+                                    <p>Rocogged</p>
+                                    <span>Lorem ipsum</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae
+                                        suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container">
+                            <div class="front" style="background-image: url(https://unsplash.it/502/502/)">
+                                <div class="inner">
+                                    <p>Strizzes</p>
+                                    <span>Lorem ipsum</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae
+                                        suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper2">
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(https://unsplash.it/503/503/)">
+                            <div class="inner">
+                                <p>Clossyo</p>
+                                <span>Lorem ipsum</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae
+                                    suscipit c.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(https://unsplash.it/504/504/)">
+                            <div class="inner">
+                                <p>Rendann</p>
+                                <span>Lorem ipsum</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae
+                                    suscipit c.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+
+
+        <section class="prlx-3">
+            <div class="prlx-inner">
+                <!-- <h2>Parallax-3</h2> -->
+                <div class="wrapper3">
+
+                    <p>LIVE STREAMS</p>
+        </section>
+        <div class="wrapper3">
+            <div class="container-wrapper">
+                <input type="radio" name="sld-live" id="c1" checked>
+                <label for="c1" class="card">
+                    <div class="row">
+                        <div class="icon">1</div>
+                        <div class="description">
+                            <h4>Live Streaming</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae saepe, praesentium
+                                tenetur non fugiat natus odio fugit laborum atque dolor, alias quaerat, dolores cumque.
+                                Corporis consectetur culpa molestias doloribus obcaecati. Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit. Consectetur hic sit dignissimos laboriosam laudantium
+                                vitae, nobis distinctio dolorum esse laborum, eos possimus nam, facere cumque voluptatem
+                                modi saepe obcaecati quod deleniti beatae maiores eum eveniet. Accusantium delectus,
+                                laborum, hic quaerat reiciendis aliquam voluptatibus, at nesciunt quidem illo voluptas.
+                                Laudantium laboriosam ratione vero! Magni optio consectetur, suscipit delectus, odit
+                                vitae tenetur reprehenderit fugit cumque ad tempora obcaecati nemo neque alias pariatur
+                                officiis. Assumenda amet corrupti odio molestias eaque fugiat! Sequi vero placeat
+                                ducimus. Officia perferendis id quaerat consequatur laudantium iusto fugiat!
+
+                            </p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="sld-live" id="c2" checked>
+                <label for="c2" class="card">
+                    <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4>Live Streaming</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae saepe, praesentium
+                                tenetur non fugiat natus odio fugit laborum atque dolor, alias quaerat, dolores cumque.
+                                Corporis consectetur culpa molestias doloribus obcaecati.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="sld-live" id="c3" checked>
+                <label for="c3" class="card">
+                    <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4>Live Streaming</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae saepe, praesentium
+                                tenetur non fugiat natus odio fugit laborum atque dolor, alias quaerat, dolores cumque.
+                                Corporis consectetur culpa molestias doloribus obcaecati.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="sld-live" id="c4" checked>
+                <label for="c4" class="card">
+                    <div class="row">
+                        <div class="icon">4</div>
+                        <div class="description">
+                            <h4>Live Streaming</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae saepe, praesentium
+                                tenetur non fugiat natus odio fugit laborum atque dolor, alias quaerat, dolores cumque.
+                                Corporis consectetur culpa molestias doloribus obcaecati.</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="footer">
+            <div class="footleft">
+                <p><img src="logo-removebg.png" id="footerlogo" /></p>
+                <div class="details">
+                    <h2>Contacts</h2>
+                    <p>Email: abc@gmail.com</p>
+                    <p>Phone: (91) 999999999</p>
+                </div>
+                <p class="footercontent">Koe-The Kafe<i class="fab fa-facebook"></i></p>
+                <div class="footer-social-icon1">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footright">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="email" placeholder="Email" id="email">
+                    <textarea name="message" rows="3" placeholder="Your Message" id="mssg"></textarea>
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="workshop.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>
